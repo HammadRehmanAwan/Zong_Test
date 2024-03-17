@@ -1,0 +1,1892 @@
+Unity Editor version:    2022.3.14f1 (eff2de9070d8)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/hammad/Documents/GitHub/Zong_Test/Zong_Test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55155
+Successfully changed project path to: /Users/hammad/Documents/GitHub/Zong_Test/Zong_Test
+/Users/hammad/Documents/GitHub/Zong_Test/Zong_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8383920832] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 3652430172 [EditorId] 3652430172 [Version] 1048832 [Id] OSXEditor(0,192.168.1.10) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8383920832] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 3652430172 [EditorId] 3652430172 [Version] 1048832 [Id] OSXEditor(0,192.168.1.10) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hammad/Documents/GitHub/Zong_Test/Zong_Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56723
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004648 seconds.
+- Loaded All Assemblies, in  0.261 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 77 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 593ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (211ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (55ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 879ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 113 unused Assets / (5.3 MB). Loaded Objects now: 4405.
+Memory consumption went from 177.0 MB to 171.8 MB.
+Total: 4.661834 ms (FindLiveObjects: 0.141750 ms CreateObjectMapping: 0.051417 ms MarkObjects: 2.730208 ms  DeleteObjects: 1.737292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: f762135bac905e34e2b540c872c48817 -> 78037d4003e5a4b0314b98b1f7353d0d
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x317b87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.333 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 743ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (60ms)
+				TypeCache.ScanAssembly (50ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 450 unused Assets / (0.5 MB). Loaded Objects now: 3989.
+Memory consumption went from 151.9 MB to 151.4 MB.
+Total: 2.794625 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.051417 ms MarkObjects: 2.213416 ms  DeleteObjects: 0.400750 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313287000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.297 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 921ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (42ms)
+				TypeCache.ScanAssembly (33ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (624ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.7 KB). Loaded Objects now: 3989.
+Memory consumption went from 158.0 MB to 157.7 MB.
+Total: 2.508084 ms (FindLiveObjects: 0.140042 ms CreateObjectMapping: 0.047083 ms MarkObjects: 2.162083 ms  DeleteObjects: 0.158042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.228 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 805ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.6 KB). Loaded Objects now: 3992.
+Memory consumption went from 165.6 MB to 165.3 MB.
+Total: 2.632125 ms (FindLiveObjects: 0.141708 ms CreateObjectMapping: 0.044625 ms MarkObjects: 2.164333 ms  DeleteObjects: 0.280792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Import Request.
+  Time since last request: 32380.011441 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png
+  artifactKey: Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Yes.png using Guid(6ed18601f275b4f8fa32d21d0f35343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52cec72a6679d168c9b28a09cba189e') in 0.096484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.456086 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png
+  artifactKey: Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Twitter.png using Guid(6dc0c810562fd40d480bb4a2b0e2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d86a4b5c444b4da80911993becafc51') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png
+  artifactKey: Guid(067be74ecf0444595a2a4825969316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/UpArrow.png using Guid(067be74ecf0444595a2a4825969316ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4113c454f2553d0548de11fcf6df246a') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png
+  artifactKey: Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png using Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204141ffcfee9ff16a0e9ee4199fab17') in 0.008902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.972378 seconds.
+  path: Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png
+  artifactKey: Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png using Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1cc62367df9de37c1eac8982d9a7df') in 0.010714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/sphere.png
+  artifactKey: Guid(62557ca4a6ad24504912d6e40042ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sphere.png using Guid(62557ca4a6ad24504912d6e40042ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a568da65c8ed5abd3a7af876c3aa8432') in 0.010977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Restart.png
+  artifactKey: Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Restart.png using Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f909c304ccf719004e41ab2eced448') in 0.008662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Restart.png
+  artifactKey: Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Restart.png using Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78d71ba85528b5bbcedd706f925eec7') in 0.008976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 1041ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.9 KB). Loaded Objects now: 4006.
+Memory consumption went from 173.3 MB to 173.0 MB.
+Total: 2.588541 ms (FindLiveObjects: 0.148792 ms CreateObjectMapping: 0.049791 ms MarkObjects: 2.199625 ms  DeleteObjects: 0.189417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Import Request.
+  Time since last request: 544.268471 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01aeb6e751d479e147895606cb153ac') in 0.141446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014027a4234a5b6f2ade68f08e93b36f') in 0.023701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5398728cd6dcae67d4b930217939d1c2') in 0.028866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 96.876564 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png
+  artifactKey: Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png using Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ef13dd9e747519ca94d6585e7c59b') in 0.020865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Twitter.png
+  artifactKey: Guid(93a69ad77ea914e33bf489705120f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Twitter.png using Guid(93a69ad77ea914e33bf489705120f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15675bc0dc56da6d75fed23605d0b057') in 0.007399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.592862 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Star.png
+  artifactKey: Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Star.png using Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc18fb7472d2b1062047e3c3ed505bb6') in 0.017372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Trophy.png
+  artifactKey: Guid(186dfa9d9d421454d9da3d5f547f3126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Trophy.png using Guid(186dfa9d9d421454d9da3d5f547f3126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fe2479ccab551f0d143f942aced0b7') in 0.008865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png
+  artifactKey: Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png using Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b6bfc5ce042be92525ff6aa6ecc252') in 0.013805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.874053 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png
+  artifactKey: Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png using Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8466849eece3d03c0d2b89eca07dff') in 0.010591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png
+  artifactKey: Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png using Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf736efcd1bb4e16bfab3959b1706e0') in 0.008635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png
+  artifactKey: Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png using Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb071c1e4f6f9051795a215370d84ff') in 0.017643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png
+  artifactKey: Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png using Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b02bc2c875f39db07a1d997e1787e') in 0.007718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png
+  artifactKey: Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png using Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fffa09bd57d225375ecea3b15c35a1') in 0.007830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png
+  artifactKey: Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png using Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224a6e3f6683c32714beb9bfdf8602f8') in 0.012570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013250 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png
+  artifactKey: Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png using Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628cc2eb0beb849a67f09a0827111d08') in 0.006275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png
+  artifactKey: Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png using Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6576e7853d8aabaa3b101ffa40ccaaf7') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Settings.png
+  artifactKey: Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Settings.png using Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97da55f60fa695105661056dfee9d1c9') in 0.007158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png
+  artifactKey: Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png using Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50c4fc1959253c87fb2db688a538c4a') in 0.007079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.916117 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow.png
+  artifactKey: Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow.png using Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e0c827b6c47a8527fcfb0d7be70941') in 0.010643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png
+  artifactKey: Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png using Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25586b365f473b500a3e7c8316fa14d7') in 0.011081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.498012 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png
+  artifactKey: Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png using Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14d7c0c79e3bfae15625a37ba08b708') in 0.008577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png
+  artifactKey: Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png using Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e60adf8ef69524af3380ce08957cf') in 0.008964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.073398 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Plus.png
+  artifactKey: Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Plus.png using Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd693d4108c1bdf008acefb2ff9767e92') in 0.006906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png
+  artifactKey: Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png using Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4885d336206694f4cf588e94d6622e8') in 0.006328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.651316 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Play.png
+  artifactKey: Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Play.png using Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591de0d73d4882429de7b0632aebda70') in 0.010916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.058067 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png
+  artifactKey: Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png using Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d4672f67d99e4093a57b9bd69eeb7b') in 0.007123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png
+  artifactKey: Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png using Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4fdb57d0189367897823fdb9388d89') in 0.007730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.950837 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Minus.png
+  artifactKey: Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Minus.png using Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5123fb844a1e406e90fdf55ec9e66127') in 0.010395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Pause.png
+  artifactKey: Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Pause.png using Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc63f3c91caa6078374855ede0f300f') in 0.018369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.049722 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Menu.png
+  artifactKey: Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Menu.png using Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6c652f8ba702a2c5c6a00121ebac8c') in 0.007751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png
+  artifactKey: Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png using Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2dbb9f8b28b77471490213d26aaf63') in 0.006692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.751861 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png
+  artifactKey: Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png using Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cd9451fa86704665cc686c3e7f74e2') in 0.010573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png
+  artifactKey: Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png using Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c210daa26d36a50cbfa831082e546e') in 0.009277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.800274 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png
+  artifactKey: Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png using Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f529eeb9f5506f79985af4981f3658a5') in 0.010223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png
+  artifactKey: Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png using Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e3d52558bd37c4490a4056d73446b3') in 0.008136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.058836 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png
+  artifactKey: Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png using Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1dda0cdc513521f98162da169a685') in 0.007221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.648059 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Home.png
+  artifactKey: Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Home.png using Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a957e76a83d268cc6c353bd07b4d568e') in 0.011227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Info.png
+  artifactKey: Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Info.png using Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cc370a179568be868aa3d6aeacee58') in 0.009230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.037561 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png
+  artifactKey: Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png using Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf6a650af1d738c8e11dafbc1be0b4') in 0.013760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png
+  artifactKey: Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png using Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74903f1b86372f19ad4feda3b1d92eb') in 0.010042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.515919 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png
+  artifactKey: Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png using Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef0558c7e503d5740c51bb0f0db064a') in 0.011086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png
+  artifactKey: Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png using Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cecbacdceee560e4dcf7a2c0629392') in 0.008625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.059361 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Forward.png
+  artifactKey: Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Forward.png using Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870723a6606161e84d484ac21f67a4b9') in 0.007238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/GameCenter.png
+  artifactKey: Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/GameCenter.png using Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca41141fabab7c422bed515d419a35') in 0.007173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.547556 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png
+  artifactKey: Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png using Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d5c139f09fa9cc29e3ec6b3c91af8') in 0.011370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png
+  artifactKey: Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png using Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61f13dabc670480e2a334dbe4c0eb20') in 0.010133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038082 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Email.png
+  artifactKey: Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Email.png using Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290cfd7325cee250d450bbc0f40f98d3') in 0.007626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png
+  artifactKey: Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png using Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c475425b103a02fb53d591564ea1ce1') in 0.013349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011460 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png
+  artifactKey: Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png using Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0269e9a0b74c704298067ad5e62eff0e') in 0.006997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Email.png
+  artifactKey: Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Email.png using Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108d4800ec4da0bf62749b0550ba500e') in 0.010295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.486729 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png
+  artifactKey: Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png using Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168ba764ad1f2fe7620be551494283a4') in 0.010204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png
+  artifactKey: Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png using Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ca32de39a907f8887233afbefed77c') in 0.008546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.115423 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Dollar.png
+  artifactKey: Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Dollar.png using Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233738686a76c0e63366411eb553bb44') in 0.008235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.522155 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png
+  artifactKey: Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png using Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38466215de99960a226a8ca224b4f05f') in 0.010465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Cancel.png
+  artifactKey: Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Cancel.png using Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45860ad58949b9aa8eef6259a39be46d') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Backward.png
+  artifactKey: Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Backward.png using Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb23db5b356716c51b6f3ddefac8551d') in 0.009016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png
+  artifactKey: Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png using Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3070b5c98cf2ff50741ebcc3153f4207') in 0.008351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.267 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 958ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.6 KB). Loaded Objects now: 4051.
+Memory consumption went from 182.2 MB to 181.9 MB.
+Total: 2.648459 ms (FindLiveObjects: 0.211333 ms CreateObjectMapping: 0.051959 ms MarkObjects: 2.210625 ms  DeleteObjects: 0.173875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1040ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.6 KB). Loaded Objects now: 4054.
+Memory consumption went from 189.9 MB to 189.6 MB.
+Total: 2.878209 ms (FindLiveObjects: 0.140917 ms CreateObjectMapping: 0.043708 ms MarkObjects: 2.372250 ms  DeleteObjects: 0.320583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.272 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.695 seconds
+Domain Reload Profiling: 967ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (330.0 KB). Loaded Objects now: 4057.
+Memory consumption went from 197.4 MB to 197.1 MB.
+Total: 2.725667 ms (FindLiveObjects: 0.144750 ms CreateObjectMapping: 0.048209 ms MarkObjects: 2.372167 ms  DeleteObjects: 0.159875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.267 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.7 KB). Loaded Objects now: 4060.
+Memory consumption went from 204.9 MB to 204.6 MB.
+Total: 2.505208 ms (FindLiveObjects: 0.143417 ms CreateObjectMapping: 0.047542 ms MarkObjects: 2.130083 ms  DeleteObjects: 0.183375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 825ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (330.0 KB). Loaded Objects now: 4063.
+Memory consumption went from 212.4 MB to 212.1 MB.
+Total: 2.841583 ms (FindLiveObjects: 0.139916 ms CreateObjectMapping: 0.043750 ms MarkObjects: 2.362959 ms  DeleteObjects: 0.294375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.273 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 813ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.9 KB). Loaded Objects now: 4066.
+Memory consumption went from 219.9 MB to 219.6 MB.
+Total: 3.195750 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.043666 ms MarkObjects: 2.728875 ms  DeleteObjects: 0.288417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.274 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 852ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (578ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (329.9 KB). Loaded Objects now: 4069.
+Memory consumption went from 227.5 MB to 227.1 MB.
+Total: 3.440333 ms (FindLiveObjects: 0.127333 ms CreateObjectMapping: 0.041792 ms MarkObjects: 2.868166 ms  DeleteObjects: 0.401875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Begin MonoManager ReloadAssembly
+Thread 0x313347000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.IntegrationTests' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/IntegrationTests/Unity.InputSystem.IntegrationTests.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem.TestFramework' already exists (Assets/com.unity.inputsystem@1.7.0/Tests/TestFixture/Unity.InputSystem.TestFramework.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Unity.InputSystem.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/Packages/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+Assembly with name 'Unity.InputSystem.ForUI' already exists (Assets/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemForUI.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 940ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (47ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (330.1 KB). Loaded Objects now: 4072.
+Memory consumption went from 235.0 MB to 234.7 MB.
+Total: 2.868709 ms (FindLiveObjects: 0.139042 ms CreateObjectMapping: 0.050083 ms MarkObjects: 2.447166 ms  DeleteObjects: 0.231667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (316.8 KB). Loaded Objects now: 4072.
+Memory consumption went from 180.5 MB to 180.2 MB.
+Total: 2.457875 ms (FindLiveObjects: 0.150208 ms CreateObjectMapping: 0.040709 ms MarkObjects: 2.102875 ms  DeleteObjects: 0.163500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (316.9 KB). Loaded Objects now: 4072.
+Memory consumption went from 179.7 MB to 179.4 MB.
+Total: 2.533542 ms (FindLiveObjects: 0.147875 ms CreateObjectMapping: 0.041583 ms MarkObjects: 2.191125 ms  DeleteObjects: 0.148500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RawRenderQueue.cs:  -> 30a9bf28c1795ef6b785c84c505f2777
